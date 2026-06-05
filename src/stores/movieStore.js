@@ -15,7 +15,7 @@ export const useMovieStore = defineStore('movie', () => {
         errorMessage.value = '';
 
         try {
-            const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NTRjOGE5NGQ4YWY1MWM0NzgyNGNiMWFiZjc0YzUzYyIsIm5iZiI6MTc3OTQyNTc2Ni44NzUsInN1YiI6IjZhMGZlMWU2NDVlOTFkNjk2ZWEzNDY1OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.x9s5s5TxEEI92mRtB-fx8Pdib4pgXz2JHXkL9gZxB1Q";
+            const API_KEY = "454c8a94d8af51c47824cb1abf74c53c";
 
             const movieParams = {
                 api_key: API_KEY,
